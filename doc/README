@@ -1,0 +1,19 @@
+#!/bin/bash
+
+cat << _EOF_
+# youtoot
+
+Toot media that youtube-dl supports.
+
+$(./doc/dependencies)
+
+$(cat ./doc/setup.md)
+
+$(cat ./doc/variables.md)
+
+$(cat ./doc/usage.md)
+
+$(cat ./doc/roadmap.md)
+
+> This file is generated. Please edit files in ./doc/.
+_EOF_

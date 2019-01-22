@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cat << _EOF_
+## Dependencies
+
+> Latest tested versions. Chances are that youtoot works with other versions also.
+
+- $(pip --version)
+- youtube-dl $(youtube-dl --version)
+- node $(node -v)
+- npm $(npm -v)
+_EOF_
