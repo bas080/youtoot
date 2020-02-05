@@ -6,9 +6,9 @@ Toot media that youtube-dl supports.
 
 > Latest tested versions. Chances are that youtoot works with other versions also.
 
-- pip 1.5.4 from /usr/lib/python2.7/dist-packages (python 2.7)
-- youtube-dl 2019.02.18
-- node v9.11.2
+- pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)
+- youtube-dl 2020.01.24
+- node v11.15.0
 - npm 6.7.0
 
 ## Setup
@@ -39,7 +39,8 @@ Simply suply an url or something that youtube-dl understand as an identifier.
 
 ## Roadmap
 
-- [ ] Support multiple URLS and playlist extractors.
+- [ ] Add an example on how to add multiple files (xargs).
 - [ ] Allow to configure (global) toot settings.
+- [ ] Define the bin file in the package.json.
 
 > This file is generated. Please edit files in ./doc/.
