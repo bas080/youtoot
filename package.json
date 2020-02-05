@@ -1,11 +1,11 @@
 {
   "name": "youtoot",
+  "bin": "./youtoot.js",
   "version": "0.0.0",
   "description": "Toot media supported by youtube-dl",
-  "main": "./src/index.js",
   "scripts": {
     "test": "prove -f",
-    "docs": "rm -f README.md; ./doc/README > ./README.md && chmod -w ./README.md"
+    "docs": "chmod +w ./README.md; ./doc/README.sh > ./README.md && chmod -w ./README.md"
   },
   "keywords": [
     "youtube",
